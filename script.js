@@ -1,10 +1,12 @@
+let deck
 let card = document.querySelectorAll('.card')
+
 fetch("./deck.json")
 .then(response=>{
     return response.json()
 })
-.then(data=>{console.log(data)})
-
+.then(data=>deck=data)
+.then(deck=>console.log(deck))
 let createCards=(suit, i)=> {
     return `${i} of ${suit}`
 }
@@ -18,15 +20,5 @@ let numberCycle=(numbers)=>{
 }
 }
 
-let deck = (suits) => {
-    suits.forEach((suit)=>{
-        for(let i=0; i<10; i++) {
-            card=suit[i]
-            return card
-        } 
-        }   
-    )
-}
 
-console.log(deck)
 
