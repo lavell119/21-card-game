@@ -1,0 +1,163 @@
+[{
+    "Ace of Spades" :{
+    "value": "ace",
+    "suit": "spades"
+},
+    "Two of Spades" :{
+    "value": "two",
+    "suit": "spades"
+},
+    "Three of Spades" :{
+    "value": "three",
+    "suit": "spades"
+},
+    "Four of Spades" :{
+    "value": "four",
+    "suit": "spades"
+},
+    "Five of Spades" :{
+    "value": "five",
+    "suit": "spades"
+},
+    "Six of Spades" :{
+    "value": "six",
+    "suit": "spades"
+},
+    "Seven of Spades" :{
+    "value": "seven",
+    "suit": "spades"
+},
+    "Eight of Spades" :{
+    "value": "eight",
+    "suit": "spades"
+},
+    "Nine of Spades" :{
+    "value": "nine",
+    "suit": "spades"
+},
+    "Ten of Spades" :{
+    "value": "ten",
+    "suit": "spades"
+},
+    "Jack of Spades" :{
+    "value": "jack",
+    "suit": "spades"
+},
+    "Queen of Spades" :{
+    "value": "queen",
+    "suit": "spades"
+},
+    "King of Spades" :{
+    "value": "king",
+    "suit": "spades"
+},
+
+
+    "Ace of Clubs" :{
+    "value": "ace",
+    "suit": "clubs"
+},
+    "Two of Clubs" :{
+    "value": "two",
+    "suit": "clubs"
+},
+    "Three of Clubs" :{
+    "value": "three",
+    "suit": "clubs"
+},
+    "Four of Clubs" :{
+    "value": "four",
+    "suit": "clubs"
+},
+    "Five of Clubs" :{
+    "value": "five",
+    "suit": "clubs"
+},
+    "Six of Clubs" :{
+    "value": "six",
+    "suit": "clubs"
+},
+    "Seven of Clubs" :{
+    "value": "seven",
+    "suit": "clubs"
+},
+    "Eight of Clubs" :{
+    "value": "eight",
+    "suit": "clubs"
+},
+    "Nine of Clubs" :{
+    "value": "nine",
+    "suit": "clubs"
+},
+    "Ten of Clubs" :{
+    "value": "ten",
+    "suit": "clubs"
+},
+    "Jack of Clubs" :{
+    "value": "jack",
+    "suit": "clubs"
+},
+    "Queen of Clubs" :{
+    "value": "queen",
+    "suit": "clubs"
+},
+    "King of Clubs" :{
+    "value": "king",
+    "suit": "clubs"
+},
+
+
+    "Ace of Hearts" :{
+    "value": "ace",
+    "suit": "hearts"
+},
+    "Two of Hearts" :{
+    "value": "two",
+    "suit": "hearts"
+},
+    "Three of Hearts" :{
+    "value": "three",
+    "suit": "hearts"
+},
+    "Four of Hearts" :{
+    "value": "four",
+    "suit": "hearts"
+},
+    "Five of Hearts" :{
+    "value": "five",
+    "suit": "hearts"
+},
+    "Six of Hearts" :{
+    "value": "six",
+    "suit": "hearts"
+},
+    "Seven of Hearts" :{
+    "value": "seven",
+    "suit": "hearts"
+},
+    "Eight of Hearts" :{
+    "value": "eight",
+    "suit": "hearts"
+},
+    "Nine of Hearts" :{
+    "value": "nine",
+    "suit": "hearts"
+},
+    "Ten of Hearts" :{
+    "value": "ten",
+    "suit": "hearts"
+},
+    "Jack of Hearts" :{
+    "value": "jack",
+    "suit": "hearts"
+},
+    "Queen of Hearts" :{
+    "value": "queen",
+    "suit": "hearts"
+},
+    "King of Hearts" :{
+    "value": "king",
+    "suit": "hearts"
+}
+}
+]
