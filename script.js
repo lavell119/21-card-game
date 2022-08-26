@@ -22,9 +22,9 @@ startButton.addEventListener('click', ()=>{
 })
 
 hitButton.addEventListener('click', ()=>{
-    let i = Math.floor(Math.random() * 52)
+    let i = Math.floor(Math.random() * 2)
     let drawnCard=(deck[i])
-
+    console.log(drawnCard.value)
     console.log(Object.entries(drawnCard))
     card[0].innerText=Object.entries(drawnCard)
 })
