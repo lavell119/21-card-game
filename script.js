@@ -26,7 +26,8 @@ hitButton.addEventListener('click', ()=>{
     let drawnCard=(deck[i])
     console.log(drawnCard.value)
     console.log(Object.entries(drawnCard))
-    card[0].innerText=Object.entries(drawnCard)
+    card[1].style.backgroundImage="url('`deck-images/${drawnCard.image}.png`')"
+    console.log('`deck-images/${drawnCard.image}.png`')
 })
 
 
