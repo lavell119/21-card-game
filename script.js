@@ -7,6 +7,19 @@ let topButtons=document.querySelectorAll(".top-button")
 let hitButton=document.querySelector(".hit-button")
 let stayButton=document.querySelector(".stay-button")
 let cardName=document.querySelector(".card-name")
+let hand=document.querySelector(".hand")
+let newCard=document.createElement('div')
+let numberOfCards=0
+
+let appendCard=(drawnCard)=> {
+    let currentCard=newCard
+    hand.appendChild(currentCard).classList.add('card')
+    currentCard.style.backgroundImage="url('deck-images/"+drawnCard.image+".png')"
+    numberOfCards=numberOfCards+1
+    console.log(numberOfCards)    
+}
+
+
 
 fetch("./deck.json")
 .then(response=>{
@@ -25,10 +38,13 @@ hitButton.addEventListener('click', ()=>{
     let i = Math.floor(Math.random() * 52)
     let drawnCard=(deck[i])
     console.log(drawnCard.name)
-    card[0].style.backgroundImage="url('deck-images/"+drawnCard.image+".png')"
+    card[0].style.backgroundImage="url('deck-images/king_of_hearts.png')"
     cardName.classList.remove("hide")
     cardName.innerText=drawnCard.name
-
+    let newCard=document.createElement('div')
+    newCard.classList.add('card')
+    newCard.style.backgroundImage="url('deck-images/"+drawnCard.image+".png')"
+    hand.appendChild(newCard)
 })
 
 
