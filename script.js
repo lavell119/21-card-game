@@ -6,7 +6,7 @@ let startButton=document.querySelector(".start-button")
 let topButtons=document.querySelectorAll(".top-button")
 let hitButton=document.querySelector(".hit-button")
 let stayButton=document.querySelector(".stay-button")
-
+let cardName=document.querySelector(".card-name")
 
 fetch("./deck.json")
 .then(response=>{
@@ -25,9 +25,10 @@ hitButton.addEventListener('click', ()=>{
     let i = Math.floor(Math.random() * 52)
     let drawnCard=(deck[i])
     console.log(drawnCard.name)
-    let customUrl="deck-images/" + drawnCard.image +".png"
     card[0].style.backgroundImage="url('deck-images/"+drawnCard.image+".png')"
-    console.log(customUrl)
+    cardName.classList.remove("hide")
+    cardName.innerText=drawnCard.name
+
 })
 
 
