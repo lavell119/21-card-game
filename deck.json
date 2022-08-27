@@ -182,67 +182,95 @@
     {"name": "Jack of Hearts",
     "value": "jack",
     "suit": "hearts",
-    "image": "jack_of_spades"
+    "image": "jack_of_hearts"
 },
     {"name": "Queen of Hearts",
     "value": "queen",
-    "suit": "hearts"
+    "suit": "hearts",
+    "image": "queen_of_hearts"
 },
     {"name": "King of Hearts",
     "value": "king",
-    "suit": "hearts"
+    "suit": "hearts",
+    "image": "king_of_hearts"
 },
     {"name": "Ace of Diamonds",
     "value": "ace",
-    "suit": "diamonds"
+    "suit": "diamonds",
+    "image": "ace_of_diamonds"
+
 },
     {"name": "Two of Diamonds",
     "value": "two",
-    "suit": "diamonss"
+    "suit": "diamonds",
+    "image": "2_of_diamonds"
+
 },
     {"name": "Three of Diamonds",
     "value": "three",
-    "suit": "diamonds"
+    "suit": "diamonds",
+    "image": "3_of_diamonds"
+
 },
     {"name": "Four of Diamonds",
     "value": "four",
-    "suit": "diamonds"
+    "suit": "diamonds",
+    "image": "4_of_diamonds"
+
 },
     {"name": "Five of Diamonds",
     "value": "five",
-    "suit": "diamonds"
+    "suit": "diamonds",
+    "image": "5_of_diamonds"
+
 },
     {"name": "Six of Diamonds",
     "value": "six",
-    "suit": "diamonds"
+    "suit": "diamonds",
+    "image": "6_of_diamonds"
+
 },
     {"name": "Seven of Diamonds",
     "value": "seven",
-    "suit": "diamonds"
+    "suit": "diamonds",
+    "image": "7_of_diamonds"
+
 },
     {"name": "Eight of Diamonds",
     "value": "eight",
-    "suit": "diamonds"
+    "suit": "diamonds",
+    "image": "8_of_diamonds"
+
 },
     {"name": "Nine of Diamonds",
     "value": "nine",
-    "suit": "diamonds"
+    "suit": "diamonds",
+    "image": "9_of_diamonds"
+
 },
     {"name": "Ten of Diamonds",
     "value": "ten",
-    "suit": "diamonds"
+    "suit": "diamonds",
+    "image": "10_of_diamonds"
+
 },
     {"name": "Jack of Diamonds",
     "value": "jack",
-    "suit": "diamonds"
+    "suit": "diamonds",
+    "image": "jack_of_diamonds"
+
 },
     {"name": "Queen of Diamonds",
     "value": "queen",
-    "suit": "diamonds"
+    "suit": "diamonds",
+    "image": "queen_of_diamonds"
+
 },
     {"name": "King of Diamonds",
     "value": "king",
-    "suit": "diamonds"
+    "suit": "diamonds",
+    "image": "king_of_diamonds"
+
 }
 ]
 

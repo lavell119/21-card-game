@@ -30,9 +30,9 @@ body {
 
 .card {
     width: 180px;
-    height: 270px;
+    height: 260px;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
     background-size: contain;
 }
 

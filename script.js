@@ -22,12 +22,12 @@ startButton.addEventListener('click', ()=>{
 })
 
 hitButton.addEventListener('click', ()=>{
-    let i = Math.floor(Math.random() * 2)
+    let i = Math.floor(Math.random() * 52)
     let drawnCard=(deck[i])
-    console.log(drawnCard.value)
-    console.log(Object.entries(drawnCard))
-    card[1].style.backgroundImage="url('`deck-images/${drawnCard.image}.png`')"
-    console.log('`deck-images/${drawnCard.image}.png`')
+    console.log(drawnCard.name)
+    let customUrl="deck-images/" + drawnCard.image +".png"
+    card[0].style.backgroundImage="url('deck-images/"+drawnCard.image+".png')"
+    console.log(customUrl)
 })
 
 
