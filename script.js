@@ -36,19 +36,13 @@ startButton.addEventListener('click', ()=>{
     stayButton.classList.remove("hide")
     startButton.classList.add('hide')
     scoreElement.classList.remove('hide')
-
 })
-if (score>21){
-    bust()
-}
 
 hitButton.addEventListener('click', ()=>{
-
     let i = Math.floor(Math.random() * 52)
     let drawnCard=(deck[i])
     console.log(drawnCard.name)
     console.log(drawnCard.value+7)
-    card[0].style.backgroundImage="url('deck-images/king_of_hearts.png')"
     cardName.classList.remove("hide")
     cardName.innerText=drawnCard.name
     let newCard=document.createElement('div')
@@ -64,12 +58,28 @@ hitButton.addEventListener('click', ()=>{
     }
 )
 
+restartButton.addEventListener('click', ()=>{
+    scoreElement.innerText=''
+    cardName.innerText=''
+    restartButton.classList.add('hide')
+    hitButton.classList.remove('hide')
+    stayButton.classList.remove('hide')
+    score=0
+    console.log(card)
+    removeChilds(hand)
+    scoreElement.classList.remove('red')
+    scoreElement.classList.remove('green')
+
+})
+
+
 stayButton.addEventListener('click', ()=>{
     hitButton.classList.add('hide')
     stayButton.classList.add('hide')
     restartButton.classList.remove('hide')
     scoreElement.classList.add('green')
     }
+    
 )
 
 let bust=()=>{
@@ -78,5 +88,10 @@ let bust=()=>{
     restartButton.classList.remove('hide')
     hitButton.classList.add('hide')
     stayButton.classList.add('hide')
-
 }
+
+const removeChilds = (parent) => {
+    while (parent.lastChild) {
+        parent.removeChild(parent.lastChild);
+    }
+};
