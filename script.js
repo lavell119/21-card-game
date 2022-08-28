@@ -10,6 +10,7 @@ let cardName=document.querySelector(".card-name")
 let hand=document.querySelector(".hand")
 let newCard=document.createElement('div')
 let numberOfCards=0
+let score=document.querySelector('.score')
 
 let appendCard=(drawnCard)=> {
     let currentCard=newCard
@@ -32,6 +33,8 @@ startButton.addEventListener('click', ()=>{
     hitButton.classList.remove("hide")
     stayButton.classList.remove("hide")
     startButton.classList.add('hide')
+    score.classList.remove('hide')
+
 })
 
 hitButton.addEventListener('click', ()=>{
@@ -45,6 +48,7 @@ hitButton.addEventListener('click', ()=>{
     newCard.classList.add('card')
     newCard.style.backgroundImage="url('deck-images/"+drawnCard.image+".png')"
     hand.appendChild(newCard)
+    score.innerText="Score = 11"
 })
 
 

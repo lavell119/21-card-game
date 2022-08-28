@@ -92,6 +92,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .hit-button {
@@ -112,4 +113,12 @@ body {
     font-size: 24px;
     text-align: center;
     font-weight: bold;
+}
+
+.score {
+    height: 50px;
+    width: 400px;
+    font-size: 32px;
+    font-weight: bold;
+    background: green;
 }
