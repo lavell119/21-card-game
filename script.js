@@ -10,7 +10,8 @@ let cardName=document.querySelector(".card-name")
 let hand=document.querySelector(".hand")
 let newCard=document.createElement('div')
 let numberOfCards=0
-let score=document.querySelector('.score')
+let scoreElement=document.querySelector('.score')
+let score=0
 
 let appendCard=(drawnCard)=> {
     let currentCard=newCard
@@ -33,14 +34,15 @@ startButton.addEventListener('click', ()=>{
     hitButton.classList.remove("hide")
     stayButton.classList.remove("hide")
     startButton.classList.add('hide')
-    score.classList.remove('hide')
+    scoreElement.classList.remove('hide')
 
 })
 
 hitButton.addEventListener('click', ()=>{
-    let i = Math.floor(Math.random() * 52)
+    let i = Math.floor(Math.random() * 4)
     let drawnCard=(deck[i])
     console.log(drawnCard.name)
+    console.log(drawnCard.value+7)
     card[0].style.backgroundImage="url('deck-images/king_of_hearts.png')"
     cardName.classList.remove("hide")
     cardName.innerText=drawnCard.name
@@ -48,7 +50,8 @@ hitButton.addEventListener('click', ()=>{
     newCard.classList.add('card')
     newCard.style.backgroundImage="url('deck-images/"+drawnCard.image+".png')"
     hand.appendChild(newCard)
-    score.innerText="Score = 11"
+    score=score+drawnCard.value
+    scoreElement.innerText=`"Score = ${score}"`
 })
 
 

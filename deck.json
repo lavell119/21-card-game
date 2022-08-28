@@ -1,31 +1,31 @@
 [
     {"name": "Ace of Spades", 
-    "value": "ace",
+    "value": 10,
     "suit": "spades",
     "image": "ace_of_spades"
 },
     {"name": "Two of Spades",
-    "value": "two",
+    "value": 2,
     "suit": "spades",
     "image": "2_of_spades"
 },
     {"name":"Three of Spades",
-    "value": "three",
+    "value": 3,
     "suit": "spades",
     "image": "3_of_spades"
 },
     {"name": "Four of Spades",
-    "value": "four",
+    "value": 4,
     "suit": "spades",
     "image": "4_of_spades"
 },
     {"name": "Five of Spades",
-    "value": "five",
+    "value": 5,
     "suit": "spades",
     "image": "5_of_spades"
 },
     {"name": "Six of Spades",
-    "value": "six",
+    "value": "6",
     "suit": "spades",
     "image": "6_of_spades"
 },
