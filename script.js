@@ -12,6 +12,7 @@ let newCard=document.createElement('div')
 let numberOfCards=0
 let scoreElement=document.querySelector('.score')
 let score=0
+let restartButton=document.querySelector('.restart-button')
 
 let appendCard=(drawnCard)=> {
     let currentCard=newCard
@@ -37,9 +38,13 @@ startButton.addEventListener('click', ()=>{
     scoreElement.classList.remove('hide')
 
 })
+if (score>21){
+    bust()
+}
 
 hitButton.addEventListener('click', ()=>{
-    let i = Math.floor(Math.random() * 4)
+
+    let i = Math.floor(Math.random() * 52)
     let drawnCard=(deck[i])
     console.log(drawnCard.name)
     console.log(drawnCard.value+7)
@@ -51,9 +56,21 @@ hitButton.addEventListener('click', ()=>{
     newCard.style.backgroundImage="url('deck-images/"+drawnCard.image+".png')"
     hand.appendChild(newCard)
     score=score+drawnCard.value
-    scoreElement.innerText=`"Score = ${score}"`
-})
+    scoreElement.innerText=`Score = ${score}`
+    if(score>21){
+        bust()
+    }
+    else return
+    }
+   
 
+)
 
+let bust=()=>{
+    scoreElement.innerText=`Score = ${score}\n Bust!`
+    scoreElement.classList.add('red')
+    restartButton.classList.remove('hide')
+    hitButton.classList.add('hide')
+    stayButton.classList.add('hide')
 
-
+}

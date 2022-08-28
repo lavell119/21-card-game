@@ -103,6 +103,10 @@ body {
     background: red;
 }
 
+.restart-button {
+    background: blue;
+}
+
 .stay-button:hover {
     background: rgb(228, 11, 11);
 }
@@ -121,4 +125,8 @@ body {
     font-size: 32px;
     font-weight: bold;
     text-align: center;
+}
+
+.red {
+    color: red;
 }
