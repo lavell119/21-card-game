@@ -62,8 +62,14 @@ hitButton.addEventListener('click', ()=>{
     }
     else return
     }
-   
+)
 
+stayButton.addEventListener('click', ()=>{
+    hitButton.classList.add('hide')
+    stayButton.classList.add('hide')
+    restartButton.classList.remove('hide')
+    scoreElement.classList.add('green')
+    }
 )
 
 let bust=()=>{
